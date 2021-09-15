@@ -50,7 +50,7 @@ def SingleInsuerQuote(request):
     # 2. sheet name
     # 3. input range
     # 4. output range
-    # 5. input data
+    # 5. input data in form of [[],[],[],[]...]
 
     filename = None
     sheetname = None
