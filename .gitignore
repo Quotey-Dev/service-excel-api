@@ -1,0 +1,16 @@
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+ExcelFiles/~$tessty.xlsm
+
+#vs code
+/.vscode/*
+venv/
+
+# Django #
+*.log
+*.pot
+*.pyc
+*.py[cod]
