@@ -17,7 +17,7 @@ import signal
 import pythoncom
 import requests
 
-MAX_EXCEL_TO_LOAD = 2
+MAX_EXCEL_TO_LOAD = 5
 
 # pythoncom.CoInitialize()
 
