@@ -143,9 +143,9 @@ def killp(pidp):
     os.kill(pidp, signal.SIGTERM)
 
 
-for pidp in PROCESS_STACK:
+# for pidp in PROCESS_STACK:
 
-    # Using register()
-    atexit.register(killp, pidp)
+#     # Using register()
+#     atexit.register(killp, pidp)
 
 #endregion

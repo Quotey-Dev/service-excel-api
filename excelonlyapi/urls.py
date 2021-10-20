@@ -21,7 +21,7 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('mainapi/', include('mainapi.urls')),
+    path('eoapi/mainapi/', include('mainapi.urls')),
 ]
 
 urlpatterns += staticfiles_urlpatterns()
