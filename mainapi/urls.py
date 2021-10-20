@@ -6,4 +6,5 @@ from django.conf.urls import url
 
 urlpatterns = [
     url(r'^xltyltemblem/', views.SingleInsuerQuote),
+    url(r'^testapi/', views.TestAPI),
 ]

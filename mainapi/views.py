@@ -131,7 +131,9 @@ def SingleInsuerQuote(request):
 
     return Response(returnValue)
 
-
+@api_view(["GET"])
+def TestAPI(request):
+    return Response("success")
 
 
 
