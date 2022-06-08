@@ -21,6 +21,16 @@ USE PYTHON VERSION 3.7.4
 ----- Step 8. Make sure NGINX is running
 
 
+HOW TO RUN NGINX on Windows?
+
+----- STEP1. Download nginx from http://nginx.org/en/download.html for Windows ( version above or equal 1.19)
+----- STEP2. Extract this packages wherever you like, preference is in c:/
+----- STEP3. Replace the webproject_nginx.conf file (inside sites-enabled folder of nginx folder), with the same file in current project nginx_waitress/webproject_nginx.conf
+----- STEP4. Inside conf folder, replace the file nginx with the nginx in this project which is nginx_waitress/nginx.conf
+             Make sure the path for webproject_nginx.conf file is correct as per the location and version of nginx
+----- STEP5. double click on nginx.exe this will run the nginx. To double check it, check it on the task manager of windows
+
+
 
 
 
