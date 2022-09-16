@@ -139,9 +139,16 @@ def TestAPI(request):
 
 #region Kill all excells if the program goes off
 
+
+
 def killp(pidp):
     os.kill(pidp, signal.SIGTERM)
 
+
+for pidp in PROCESS_STACK:
+
+    # Using register()
+    atexit.register(killp, pidp)
 
 # for pidp in PROCESS_STACK:
 
